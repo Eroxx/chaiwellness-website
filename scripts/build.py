@@ -52,7 +52,7 @@ def head(title, desc, page, og="og-image.jpg"):
 FOOT = '''</main>
 <footer><div class="wrap">
 <div class="foot">
-<div><b>Chai Wellness</b><p>Psychology consulting and training, and apps for everyday life. Athens, Georgia.</p></div>
+<div><b>Chai Wellness</b><p>A husband-and-wife company in Athens, Georgia: psychology consulting and training, and apps for everyday life.</p></div>
 <div><b>Explore</b><ul><li><a href="emily.html">About Emily</a></li><li><a href="consulting.html">Consulting</a></li><li><a href="apps.html">Apps</a></li><li><a href="contact.html">Contact</a></li></ul></div>
 <div><b>Right now</b><ul><li><a href="apps.html#all">Eric's apps</a></li><li><a href="consulting.html#engagements">Past workshops</a></li><li><a href="contact.html">Start a conversation</a></li></ul></div>
 </div>
@@ -105,46 +105,14 @@ def fan(slugs):
 # ---------------------------------------------------------------- pages
 def index():
     return head("Chai Wellness: psychology consulting and apps for everyday life",
-                "Chai Wellness is a small company in Athens, Georgia: psychology training and consulting from Dr. Emily Mouilso, and apps for everyday life from Eric Linder.", "index.html") + f'''
-<section class="hero"><div class="wrap hero-grid">
-<div>
-<p class="eyebrow rise">Athens, Georgia</p>
+                "Chai Wellness is a husband-and-wife company in Athens, Georgia: psychology training and consulting from Dr. Emily Mouilso, and apps for everyday life from Eric Linder.", "index.html") + f'''
+<section class="hero"><div class="wrap">
+<p class="eyebrow rise">A husband-and-wife company &middot; Athens, Georgia</p>
 <h1 class="rise d1">Two ways to help <em>life</em> go well.</h1>
-<p class="lede rise d2">Chai Wellness is a small company with two halves. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder makes apps that take a little weight off everyday life.</p>
-<div class="btn-row rise d3"><a class="btn" href="consulting.html">Psychology consulting</a><a class="btn ghost" href="apps.html">See the apps</a></div>
-</div>
-<div class="cup rise d2" role="img" aria-label="A cup of chai on a saucer with steam rising, with a saffron band">
-<svg viewBox="0 0 400 400" aria-hidden="true">
-<path class="arch-bg" d="M50 380 V190 C50 100 115 40 200 40 S350 100 350 190 V380 Z"/>
-<g class="steam"><path d="M160 138 C140 112 180 98 160 70 S172 44 168 30"/><path d="M200 138 C180 108 222 92 200 62 S212 34 208 20"/><path d="M240 138 C220 112 260 98 240 70 S252 44 248 30"/></g>
-<ellipse cx="200" cy="332" rx="138" ry="10" fill="#2b1e16" opacity=".12"/>
-<ellipse class="saucer-under" cx="200" cy="330" rx="140" ry="16"/>
-<ellipse class="saucer" cx="200" cy="322" rx="145" ry="18"/>
-<ellipse class="saucer-in" cx="200" cy="320" rx="100" ry="9"/>
-<defs><clipPath id="cupclip"><path d="M100 168 H300 V204 C300 268 262 312 200 312 C138 312 100 268 100 204 Z"/></clipPath></defs>
-<path class="handle" d="M296 196 C352 190 352 268 292 262"/>
-<ellipse cx="200" cy="316" rx="46" ry="7" fill="#2f4636"/>
-<path class="cup-body" d="M100 168 H300 V204 C300 268 262 312 200 312 C138 312 100 268 100 204 Z"/>
-<g clip-path="url(#cupclip)" fill="#d98e2b" stroke="#d98e2b"><path d="M96 200 H304 M96 224 H304" stroke-width="3" fill="none"/><g stroke="none"><circle cx="124" cy="212" r="4"/><circle cx="152" cy="212" r="4"/><circle cx="180" cy="212" r="4"/><circle cx="208" cy="212" r="4"/><circle cx="236" cy="212" r="4"/><circle cx="264" cy="212" r="4"/><circle cx="292" cy="212" r="4"/></g></g>
-<ellipse class="cup-rim" cx="200" cy="168" rx="100" ry="15"/>
-<ellipse class="tea" cx="200" cy="169" rx="88" ry="9"/>
-</svg>
-<span class="eighteen">Chai means life, and 18</span>
-</div>
+<p class="lede rise d2">Chai Wellness is the work of a husband and wife. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder makes apps that take a little weight off everyday life.</p>
 </div></section>
 
-<section class="band"><div class="wrap">
-<p class="eyebrow">What's in a name</p>
-<div class="meanings">
-<div class="meaning"><span class="big he" lang="he">חי</span><h3>Life</h3><p>Chai is the Hebrew word for life. It is what a wellness company is ultimately about.</p></div>
-<div class="meaning"><span class="big">18</span><h3>A number with a blessing</h3><p>The two letters of chai add up to 18, which is why gifts and donations are so often given in multiples of it. <i>L'chaim</i> means "to life."</p></div>
-<div class="meaning"><span class="big">☕</span><h3>A cup of tea</h3><p>Spiced, slow and shared. We would like our work to feel like that: warm, unhurried and worth sitting down for.</p></div>
-</div>
-</div></section>
-
-<section><div class="wrap">
-<p class="eyebrow">The two halves</p>
-<h2>Pick a door.</h2>
+<section class="hero-doors"><div class="wrap rise d3">
 <div class="doors">
 <a class="door" href="emily.html">
 <div class="arch"><img src="img/emily-560.webp" alt="Dr. Emily Mouilso" width="150" height="188"></div>
@@ -158,6 +126,15 @@ def index():
 <p>Eleven apps for iPhone, iPad, Mac and Apple Watch, from habit tracking to whiskey collections to Torah study. Small, careful and built one at a time.</p>
 <span class="go">See all the apps <span aria-hidden="true">→</span></span>
 </a>
+</div>
+</div></section>
+
+<section class="band"><div class="wrap">
+<p class="eyebrow">What's in a name</p>
+<div class="meanings">
+<div class="meaning"><span class="big he" lang="he">חי</span><h3>Life</h3><p>Chai is the Hebrew word for life. It is what a wellness company is ultimately about.</p></div>
+<div class="meaning"><span class="big">18</span><h3>A number with a blessing</h3><p>The two letters of chai add up to 18, which is why gifts and donations are so often given in multiples of it. <i>L'chaim</i> means "to life."</p></div>
+<div class="meaning"><span class="big">Tea</span><h3>A cup of tea</h3><p>Spiced, slow and shared. We would like our work to feel like that: warm, unhurried and worth sitting down for.</p></div>
 </div>
 </div></section>
 
@@ -189,6 +166,7 @@ def emily():
 <p>Her clinical roots are in trauma. She trained at the Ralph H. Johnson VA Medical Center and the National Crime Victims Research and Treatment Center in Charleston, then completed a fellowship at the Charlie Norwood VA Medical Center, where she treated veterans and set up a new co-located psychology clinic on a unit that had never had embedded behavioral health care.</p>
 <p>Since 2015 she has run a training clinic, which means she spends her days on the questions clinicians actually face: which treatment fits, how to supervise it, and what the right thing to do is when the answer is not obvious. When her clinic moved to telehealth in 2020 she chose the secure technology and wrote the consent and crisis procedures. She later led her program's policies on telesupervision and on artificial intelligence, and other clinics at her university have adopted the AI policy.</p>
 <p>She has served on the Georgia Psychological Association's Ethics Committee since 2021, advising colleagues on difficult dilemmas, and is an exam chair for her specialty board at ABPP and a site visitor for the American Psychological Association's accreditation body.</p>
+<p>She runs Chai Wellness with her husband, Eric Linder, who builds its apps.</p>
 </div>
 
 <h2 style="margin-top:56px;font-size:1.7rem">Focus areas</h2>
@@ -324,7 +302,7 @@ def apps():
 <div>
 <p class="eyebrow">The maker</p>
 <h2 style="font-size:1.9rem">Built in Athens, Georgia</h2>
-<p class="lede" style="margin-bottom:0">Eric Linder is a rabbi and a lifelong tinkerer. He makes the apps he wants for his own days, then shares them. Questions, bug reports and ideas are welcome, and each app has its own support page and Discord community.</p>
+<p class="lede" style="margin-bottom:0">Eric Linder is a rabbi, a lifelong tinkerer, and Emily's husband and partner in Chai Wellness. He makes the apps he wants for his own days, then shares them. Questions, bug reports and ideas are welcome, and each app has its own support page and Discord community.</p>
 <div class="btn-row"><a class="btn" href="contact.html">Write to Eric</a></div>
 </div>
 </div></section>
