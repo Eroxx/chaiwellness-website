@@ -113,10 +113,18 @@ def index():
 <p class="lede rise d2">Chai Wellness is a small company with two halves. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder makes apps that take a little weight off everyday life.</p>
 <div class="btn-row rise d3"><a class="btn" href="consulting.html">Psychology consulting</a><a class="btn ghost" href="apps.html">See the apps</a></div>
 </div>
-<div class="cup rise d2" role="img" aria-label="The Hebrew word chai, meaning life, on a saffron disc with rising steam">
-<svg class="steam" viewBox="0 0 120 90" aria-hidden="true"><path d="M30 88 C 10 66, 50 52, 30 28 S 40 4, 38 0"/><path d="M62 88 C 42 66, 82 50, 62 26 S 72 2, 70 0"/><path d="M94 88 C 74 68, 112 54, 94 30 S 102 6, 100 0"/></svg>
-<div class="disc"></div>
-<span class="glyph he" lang="he" dir="rtl">חי</span>
+<div class="cup rise d2" role="img" aria-label="A cup of chai on a saucer with steam rising, with the Hebrew word chai, meaning life, printed on the cup">
+<svg viewBox="0 0 400 400" aria-hidden="true">
+<path class="arch-bg" d="M50 380 V190 C50 100 115 40 200 40 S350 100 350 190 V380 Z"/>
+<g class="steam"><path d="M160 138 C140 112 180 98 160 70 S172 44 168 30"/><path d="M200 138 C180 108 222 92 200 62 S212 34 208 20"/><path d="M240 138 C220 112 260 98 240 70 S252 44 248 30"/></g>
+<path class="handle" d="M296 196 C352 190 352 268 292 262"/>
+<path class="cup-body" d="M100 168 H300 V204 C300 268 262 312 200 312 C138 312 100 268 100 204 Z"/>
+<ellipse class="cup-rim" cx="200" cy="168" rx="100" ry="15"/>
+<ellipse class="tea" cx="200" cy="169" rx="88" ry="9"/>
+<text class="cup-he" x="200" y="266" text-anchor="middle" lang="he">חי</text>
+<ellipse class="saucer" cx="200" cy="318" rx="142" ry="17"/>
+<ellipse class="saucer-in" cx="200" cy="314" rx="104" ry="9"/>
+</svg>
 <span class="eighteen">Chai means life, and 18</span>
 </div>
 </div></section>
