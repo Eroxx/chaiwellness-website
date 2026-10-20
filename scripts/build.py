@@ -131,7 +131,6 @@ def index():
 
 <section class="band"><div class="wrap">
 <p class="eyebrow">What's in a name</p>
-<h2>Chai, <em>the word</em> and the drink.</h2>
 <div class="meanings">
 <div class="meaning"><span class="big he" lang="he">חי</span><h3>Life</h3><p>Chai is the Hebrew word for life. It is what a wellness company is ultimately about.</p></div>
 <div class="meaning"><span class="big">18</span><h3>A number with a blessing</h3><p>The two letters of chai add up to 18, which is why gifts and donations are so often given in multiples of it. <i>L'chaim</i> means "to life."</p></div>
