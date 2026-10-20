@@ -54,7 +54,7 @@ FOOT = '''</main>
 <div class="foot">
 <div><b>Chai Wellness</b><p>A husband-and-wife company in Athens, Georgia: psychology consulting and training, and apps for everyday life.</p></div>
 <div><b>Explore</b><ul><li><a href="emily.html">About Emily</a></li><li><a href="consulting.html">Consulting</a></li><li><a href="apps.html">Apps</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-<div><b>Right now</b><ul><li><a href="apps.html#all">Eric's apps</a></li><li><a href="consulting.html#engagements">Past workshops</a></li><li><a href="contact.html">Start a conversation</a></li></ul></div>
+<div><b>Right now</b><ul><li><a href="apps.html#all">Eric's apps</a></li><li><a href="consulting.html#engagements">Past workshops</a></li><li><a href="contact.html">Start a conversation</a></li><li><a href="https://geekyrabbi.com" rel="noopener">GeekyRabbi.com</a></li></ul></div>
 </div>
 <p class="fine">&copy; 2026 Chai Wellness. Dr. Mouilso's consulting is independent of her role at the University of Georgia. Chai Wellness does not provide therapy or crisis services. If you are in crisis, call or text 988.</p>
 </div></footer>
@@ -127,6 +127,7 @@ def index():
 <span class="go">See all the apps <span aria-hidden="true">→</span></span>
 </a>
 </div>
+<p class="aside">Eric also writes and teaches as the Geeky Rabbi: sermons, Torah and notes from building apps. <a href="https://geekyrabbi.com" rel="noopener">Read it at GeekyRabbi.com</a>.</p>
 </div></section>
 
 <section class="band"><div class="wrap">
@@ -302,7 +303,8 @@ def apps():
 <p class="eyebrow">The maker</p>
 <h2 style="font-size:1.9rem">Built in Athens, Georgia</h2>
 <p class="lede" style="margin-bottom:0">Eric Linder is a rabbi, a lifelong tinkerer, and Emily's husband and partner in Chai Wellness. He makes the apps he wants for his own days, then shares them. Questions, bug reports and ideas are welcome, and each app has its own support page and Discord community.</p>
-<div class="btn-row"><a class="btn" href="contact.html">Write to Eric</a></div>
+<p style="margin:20px 0 0;max-width:36em">Eric's sermons, Torah teaching and notes on building apps live at <b>GeekyRabbi.com</b>, under the line "Sacred text, plain text."</p>
+<div class="btn-row"><a class="btn" href="https://geekyrabbi.com" rel="noopener">Visit GeekyRabbi.com</a><a class="btn ghost" href="contact.html">Write to Eric</a></div>
 </div>
 </div></section>
 ''' + FOOT
