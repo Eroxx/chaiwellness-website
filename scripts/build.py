@@ -130,7 +130,7 @@ def index():
 </div></section>
 
 <section class="band"><div class="wrap">
-<p class="eyebrow">What's in a name</p>
+<p class="eyebrow">What's in the name, Chai</p>
 <div class="meanings">
 <div class="meaning"><span class="big he" lang="he">חי</span><h3>Life</h3><p>Chai is the Hebrew word for life. It is what a wellness company is ultimately about.</p></div>
 <div class="meaning"><span class="big">Tea</span><h3>A cup of tea</h3><p>Spiced, slow and shared. We would like our work to feel like that: warm, unhurried and worth sitting down for.</p></div>
