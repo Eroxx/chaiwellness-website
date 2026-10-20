@@ -102,9 +102,9 @@ section { padding: clamp(56px, 9vw, 110px) 0; }
 .cup-rim { fill: #2f4636; }
 .tea { fill: #c47a1f; }
 .handle { fill: none; stroke: #3f5b45; stroke-width: 15; stroke-linecap: round; }
-.cup-he { font: 700 78px "Frank Ruhl Libre", serif; fill: #f6ecda; direction: rtl; }
+.saucer-under { fill: #cdb994; }
 .saucer { fill: var(--card); stroke: var(--line); stroke-width: 2; }
-.saucer-in { fill: var(--paper-2); }
+.saucer-in { fill: var(--paper-2); stroke: var(--line); stroke-width: 1.5; }
 .steam path { fill: none; stroke: var(--chai); stroke-width: 6; stroke-linecap: round; opacity: .75; stroke-dasharray: 90; animation: rise 4.5s ease-in-out infinite; }
 .steam path:nth-child(2) { animation-delay: -1.5s; }
 .steam path:nth-child(3) { animation-delay: -3s; }
