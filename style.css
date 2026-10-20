@@ -207,3 +207,8 @@ footer a { color: #f0c58e; }
 }
 
 .aside { margin: 28px 0 0; color: var(--ink-soft); max-width: 44em; }
+
+.kicker { margin-top: 20px; font: 600 .76rem/1 var(--body); letter-spacing: .16em; text-transform: uppercase; color: var(--chai); }
+.kicker + h3 { margin-top: 10px; }
+.who { font-weight: 600; margin: 4px 0 20px; color: var(--ink); }
+.hero .lede + .lede { margin-top: -.3em; }

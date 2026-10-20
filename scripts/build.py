@@ -109,21 +109,26 @@ def index():
 <section class="hero"><div class="wrap">
 <p class="eyebrow rise">A husband-and-wife company &middot; Athens, Georgia</p>
 <h1 class="rise d1">Two ways to help <em>life</em> go well.</h1>
-<p class="lede rise d2">Chai Wellness is the work of a husband and wife. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder, a rabbi, makes apps that take a little weight off everyday life.</p>
+<p class="lede rise d2">Chai Wellness is a small company run by Emily Mouilso, PhD, a board-certified clinical psychologist, and her husband Eric Linder, a rabbi and app developer. Emily trains and consults with clinicians, clinics and organizations. Eric designs and builds apps for iPhone, iPad, Mac and Apple Watch.</p>
+<p class="lede rise d2" style="margin-top:-.2em">Two different kinds of work, one idea: practical help that makes daily life, and hard work, go a little better.</p>
 </div></section>
 
 <section class="hero-doors"><div class="wrap rise d3">
 <div class="doors">
 <a class="door" href="emily.html">
 <div class="arch"><img src="img/emily-560.webp" alt="Dr. Emily Mouilso" width="150" height="188"></div>
+<span class="kicker">Psychology consulting</span>
 <h3>Dr. Emily Mouilso</h3>
 <p>A board-certified clinical psychologist who trains therapists, supervises clinics and advises on ethics. Her consulting covers evidence-based treatment, clinical ethics, supervision, and technology and AI in practice.</p>
+<span class="who">For clinicians, clinics, training programs and organizations.</span>
 <span class="go">About Emily and her consulting <span aria-hidden="true">→</span></span>
 </a>
 <a class="door" href="apps.html">
 <div class="icon-fan" aria-hidden="true">{fan(["habit-traffic", "crate", "barrelbook", "stash", "torah-turn-it", "snipe", "quest-chronicle", "thumb-through"])}</div>
+<span class="kicker">Apps</span>
 <h3>Eric Linder's apps</h3>
 <p>Eleven apps for iPhone, iPad, Mac and Apple Watch, from habit tracking to whiskey collections to Torah study. Small, careful and built one at a time.</p>
+<span class="who">For anyone with an iPhone, iPad, Mac or Apple Watch.</span>
 <span class="go">See all the apps <span aria-hidden="true">→</span></span>
 </a>
 </div>
