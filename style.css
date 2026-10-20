@@ -113,7 +113,7 @@ section { padding: clamp(56px, 9vw, 110px) 0; }
 @media (max-width: 760px) { .doors { grid-template-columns: 1fr; } }
 
 /* ---------- meaning of chai ---------- */
-.meanings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); margin-top: 40px; }
+.meanings { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; border-top: 1px solid var(--line); margin-top: 40px; }
 .meaning { padding: 28px 28px 8px 0; }
 .meaning + .meaning { padding-left: 28px; border-left: 1px solid var(--line); }
 .meaning .big { font: 500 2.6rem/1 var(--display); color: var(--chai); display: block; margin-bottom: 10px; }

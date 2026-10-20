@@ -109,7 +109,7 @@ def index():
 <section class="hero"><div class="wrap">
 <p class="eyebrow rise">A husband-and-wife company &middot; Athens, Georgia</p>
 <h1 class="rise d1">Two ways to help <em>life</em> go well.</h1>
-<p class="lede rise d2">Chai Wellness is the work of a husband and wife. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder makes apps that take a little weight off everyday life.</p>
+<p class="lede rise d2">Chai Wellness is the work of a husband and wife. Dr. Emily Mouilso offers psychology training and consultation to clinicians and organizations. Eric Linder, a rabbi, makes apps that take a little weight off everyday life.</p>
 </div></section>
 
 <section class="hero-doors"><div class="wrap rise d3">
@@ -133,7 +133,6 @@ def index():
 <p class="eyebrow">What's in a name</p>
 <div class="meanings">
 <div class="meaning"><span class="big he" lang="he">חי</span><h3>Life</h3><p>Chai is the Hebrew word for life. It is what a wellness company is ultimately about.</p></div>
-<div class="meaning"><span class="big">18</span><h3>A number with a blessing</h3><p>The two letters of chai add up to 18, which is why gifts and donations are so often given in multiples of it. <i>L'chaim</i> means "to life."</p></div>
 <div class="meaning"><span class="big">Tea</span><h3>A cup of tea</h3><p>Spiced, slow and shared. We would like our work to feel like that: warm, unhurried and worth sitting down for.</p></div>
 </div>
 </div></section>
